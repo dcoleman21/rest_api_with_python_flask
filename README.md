@@ -6,7 +6,8 @@ This repository is practicing the implementation of creating and API using pytho
 
 ## Table of Contents
   - [Setup](#setup)
-
+  - [Notes](#notes)
+  - [Postman](#postman)
 
 
 ### Setup
@@ -56,3 +57,43 @@ In your terminal type `pip3 intall Flask`
 ### Installing Flask_RESTful
 
 In your terminal type `pip3 install Flask-RESTful`
+
+## Notes:
+
+In the tutorial, upon completion of creating logic for the methods, you will be asked to run the script so that we can check to see that our endpoints and logic is working correctly. 
+
+To do this, type `python3 api.py` (api.py is the name of the file that our scripts live).
+
+You should see something like this:
+
+```
+* Serving Flask app 'api' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 743-530-580
+ ```
+ 
+ You will see that we are running on port `http://127.0.0.1:5000/` in this example. 
+ 
+ In order to check that our request are functioning properly we will be using `Postman`. If you do not have `Postman` already, you can download it [here](https://www.postman.com/product/rest-client/).
+ 
+ If you are following along with the [tutorial](https://medium.com/duomly-blockchain-online-courses/how-to-create-a-simple-rest-api-with-python-and-flask-in-5-minutes-94bb88f74a23) then you will copy the url from your terminal to paste into Postman.
+ 
+ If you want to see a sample of the requests proceed to the section titles `Postman` below.
+ 
+ 
+ ### Postman
+ 
+ I have included a `Python-Flask Practice.postman_collection.json` file in this repo that has samples of the created requests. You can import that file into `Postman` to see these by following these steps:
+ 1. In `Postman`, click on the `import` button located in the top left corner next to the `+ New` button.
+ 2. In the pop up window, click on `Code repository NEW`.
+ 3. Then you will click on the `Connect to GitHub` button.
+ 4. This will redirect you away from Postman to authenticate GitHub.
+ 5. You will see a green `Authorize Postman` button. Once you have selected what you want access to, click that button.
+ 6. You will be prompted to enter your GitHub password.
+ 7. A pop up window will appear in Postman and you will need to select the repository that you want to import the file to and click `continue`.
