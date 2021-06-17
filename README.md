@@ -84,7 +84,7 @@ You should see something like this:
  
  If you are following along with the [tutorial](https://medium.com/duomly-blockchain-online-courses/how-to-create-a-simple-rest-api-with-python-and-flask-in-5-minutes-94bb88f74a23) then you will copy the url from your terminal to paste into Postman.
  
- If you want to see a sample of the requests proceed to the section titles `Postman` below.
+ If you want to see a sample of the requests proceed to the section titled `Postman` below.
  
  
  ### Postman
