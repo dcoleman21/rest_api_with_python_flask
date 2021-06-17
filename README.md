@@ -10,7 +10,7 @@ This repository is practicing the implementation of creating and API using pytho
   - [Postman](#postman)
 
 
-### Setup
+## Setup
 These setup instructions are for Mac OS X.
 
 ### Checking and installing the latest version of python
@@ -48,13 +48,13 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 To exit the python shell type `exit()` or `^D`.
 
-### Installing Flask
+## Installing Flask
 
 Now that you have `python3` installed you will enter the follwing commands to install `Flask`:
 
 In your terminal type `pip3 intall Flask`
 
-### Installing Flask_RESTful
+## Installing Flask_RESTful
 
 In your terminal type `pip3 install Flask-RESTful`
 
@@ -88,8 +88,7 @@ You should see something like this:
  
  If you want to see a sample of the requests proceed to the section titled `Postman` below.
  
- 
- ### Postman
+ ## Postman
  
  I have included a `Python-Flask Practice.postman_collection.json` file in this repo that has samples of the created requests. You can import that file into `Postman` to see these by following these steps:
  1. In `Postman`, click on the `import` button located in the top left corner next to the `+ New` button.
