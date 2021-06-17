@@ -57,7 +57,7 @@ In your terminal type `pip3 intall Flask`
 ## Installing Flask_RESTful
 
 In your terminal type `pip3 install Flask-RESTful`
-
+---------
 ## Notes:
 
 In the tutorial, upon completion of creating logic for the methods, you will be asked to run the script so that we can check to see that our endpoints and logic is working correctly. 
@@ -87,7 +87,7 @@ You should see something like this:
  If you are following along with the [tutorial](https://medium.com/duomly-blockchain-online-courses/how-to-create-a-simple-rest-api-with-python-and-flask-in-5-minutes-94bb88f74a23) then you will copy the url from your terminal to paste into Postman.
  
  If you want to see a sample of the requests proceed to the section titled `Postman` below.
- 
+ ---------
  ## Postman
  
  I have included a `Python-Flask Practice.postman_collection.json` file in this repo that has samples of the created requests. You can import that file into `Postman` to see these by following these steps:
