@@ -18,14 +18,16 @@ This sample requires the latest version of `Python 3`. Which at the time of this
 
 To check what version you currently have type `python` in your terminal. You should see something like the following:
 
-```WARNING: Python 2.7 is not recommended.
+```
+WARNING: Python 2.7 is not recommended.
 This version is included in macOS for compatibility with legacy software.
 Future versions of macOS will not include Python 2.7.
 Instead, it is recommended that you transition to using 'python3' from within Terminal.
 
 Python 2.7.16 (default, Jun  5 2020, 22:59:21)
 [GCC 4.2.1 Compatible Apple LLVM 11.0.3 (clang-1103.0.29.20) (-macos10.15-objc- on darwin
-Type "help", "copyright", "credits" or "license" for more information.```
+Type "help", "copyright", "credits" or "license" for more information.
+```
 
 To exit the python shell type `exit()` or `^D`.
 
@@ -37,9 +39,11 @@ To download the latest version of Python go [here](https://www.python.org/) and 
 
 To verify that the download worked correctly, go back to your terminal and type in `python3`. You should see something like the following:
 
-`Python 3.9.5 (v3.9.5:0a7dcbdb13, May  3 2021, 13:17:02)
+```
+Python 3.9.5 (v3.9.5:0a7dcbdb13, May  3 2021, 13:17:02)
 [Clang 6.0 (clang-600.0.57)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.`
+Type "help", "copyright", "credits" or "license" for more information.
+```
 
 To exit the python shell type `exit()` or `^D`.
 
