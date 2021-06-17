@@ -1,0 +1,129 @@
+{
+	"info": {
+		"_postman_id": "135a7b24-093d-4a0b-ac26-8de95695ec60",
+		"name": "Python/Flask Practice",
+		"description": "This series works through a tutorial using Python and flask.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET all students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/students",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"students"
+					]
+				},
+				"description": "http://127.0.0.1:5000/students"
+			},
+			"response": []
+		},
+		{
+			"name": "POST add a new student with params name, age, spec",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/students/?name=Dani&age=20&spec=philosophy",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Dani"
+						},
+						{
+							"key": "age",
+							"value": "20"
+						},
+						{
+							"key": "spec",
+							"value": "philosophy"
+						}
+					]
+				},
+				"description": "http://127.0.0.1:5000/students/?name=Dani&age=20&spec=philosophy"
+			},
+			"response": []
+		},
+		{
+			"name": "PUT update student 3 name and spec params",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/students/3?name=Paul&spec=programming",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"3"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Paul"
+						},
+						{
+							"key": "spec",
+							"value": "programming"
+						}
+					]
+				},
+				"description": "http://127.0.0.1:5000/students/3?name=Paul&spec=programming"
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE student 3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/students/3",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"students",
+						"3"
+					]
+				},
+				"description": "http://127.0.0.1:5000/students/3"
+			},
+			"response": []
+		}
+	]
+}
