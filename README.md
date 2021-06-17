@@ -9,7 +9,7 @@ This repository is practicing the implementation of creating and API using pytho
   - [Notes](#notes)
   - [Postman](#postman)
 
-
+-------
 ## Setup
 These setup instructions are for Mac OS X.
 
