@@ -80,6 +80,8 @@ You should see something like this:
  
  You will see that we are running on port `http://127.0.0.1:5000/` in this example. 
  
+ To exit the server type `^C`.
+ 
  In order to check that our request are functioning properly we will be using `Postman`. If you do not have `Postman` already, you can download it [here](https://www.postman.com/product/rest-client/).
  
  If you are following along with the [tutorial](https://medium.com/duomly-blockchain-online-courses/how-to-create-a-simple-rest-api-with-python-and-flask-in-5-minutes-94bb88f74a23) then you will copy the url from your terminal to paste into Postman.
